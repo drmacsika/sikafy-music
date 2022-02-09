@@ -1,27 +1,78 @@
-# Next.js + Tailwind CSS Example
+# Sikafy Music
+An online music player, which fetches data from spotify API to generate intelligent custom playlist and music suggestions.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Table of Contents:
+- [Live preview](#screenshots)
+- [Screenshots](#screenshots)
+- [Tools](#tools)
+- [Features](#features)
+- [Installation and Usage](#installation)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [Additional Info](#additional-info)
+- [Contact Info](#contact-info)
 
-## Preview
+## Live Preview
+[Learn more about CryptoSika and Preview the Live site.](https://cryptosika.netlify.app/)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Screenshots
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![Logo](https://github.com/drmacsika/cryptosika/blob/master/src/images/cryptosika_logo_transparent.png)
 
-## Deploy your own
+![Cryptocurrency Detail Page](https://github.com/drmacsika/cryptosika/blob/master/src/images/crypto_detail_page.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+![Cryptocurrency Detail Page](https://github.com/drmacsika/cryptosika/blob/master/src/images/crypto_detail_page2.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+![Home Page](https://github.com/drmacsika/cryptosika/blob/master/src/images/home_page.png)
 
-## How to use
+![Exchange Page](https://github.com/drmacsika/cryptosika/blob/master/src/images/current_exchange_rate_page.png)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+![Exchange Page 2](https://github.com/drmacsika/cryptosika/blob/master/src/images/current_exchange_rate_page2.png)
+
+![Top 100 Cryptocurrencies](https://github.com/drmacsika/cryptosika/blob/master/src/images/cryptocurrencies_list_page2.png)
+
+## Tools
+
+- NextJS
+- ReactJS
+- Recoil for state management.
+- Jest for testing
+- Spotify API for getting live music data
+- Tailwind CSS for Design
+- JWT OAUTH2 for authenticating with the API
+- NextAuth for site authentication management
+- Debounce for debouncing
+- Access/Refresh tokens
+
+## Features
+
+-   Fetch Live music data using the Spotify API
+-   Play music live and direct on the platform
+-   Add CSS responsiveness for smaller screen sizes
+
+## Installation and Usage
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+- Get your API keys from Rapid API, create a .env file and use the .env.example file as a guide to set your environment variables.
+- npm install
+- npm start
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Contributing
+
+Pull requests and contributions are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Ensure to follow the [guidelines](https://github.com/drmacsika/cryptosika/blob/master/CONTRIBUTING.md) and update tests as appropriate.
+
+## Credits
+
+All thanks to the Facebook React Team, Redux Team, Rapid API team, and the creators of the awesome tools and packages used.
+
+## Additional Info
+
+For an in-depth understanding of REACT or any of the tools used here including questions and collaborations, you can reach out to me.
+
+## Contact Info
+
+If you have any questions or want to reach me directly, 
+[Contact Nsikak Imoh](https://nsikakimoh.com).
