@@ -33,9 +33,9 @@ Table of Contents:
 
 ## Tools
 
-- Nest Js
-- React
-- Rcoil for state management
+- NextJS
+- ReactJS
+- Recoil for state management.
 - Jest for testing
 - Spotify API for getting live music data
 - Tailwind CSS for Design
