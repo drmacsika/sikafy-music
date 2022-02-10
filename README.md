@@ -76,5 +76,4 @@ For an in-depth understanding of REACT or any of the tools used here including q
 
 ## Contact Info
 
-If you have any questions or want to reach me directly, 
-[Contact Nsikak Imoh](https://nsikakimoh.com).
+If you need a professional, personalized and advanced coaching on any technology in the frontend, backend and/or both, you can [reach out to me directly for a premium tutoring and mentorship](https://nsikakimoh.com/contact).
