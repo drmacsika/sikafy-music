@@ -35,10 +35,12 @@ Table of Contents:
 
 - NextJS
 - ReactJS
+- Typescript
 - Recoil for state management.
 - Jest for testing
 - Spotify API for getting live music data
 - Tailwind CSS for Design
+- Hero icons
 - JWT OAUTH2 for authenticating with the API
 - NextAuth for site authentication management
 - Debounce for debouncing
