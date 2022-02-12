@@ -1,19 +1,20 @@
 import Head from 'next/head';
 import React from 'react';
 import SideBar from '../components/SideBar';
+import Main from '../components/Main';
 
 const Home: React.FC = () => {
   return (
     <>
-      <div className="flex min-h-screen flex-col items-center justify-center py-2">
+      <div className="bg-black h-screen overflow-hidden">
         <Head>
           <title>Sikafy Music: Music on the fly.</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <main className="flex w-full flex-1">
+        <main className='flex'>
           <SideBar />
-          
+          <Main />
         </main>
 
         <footer className="flex">
