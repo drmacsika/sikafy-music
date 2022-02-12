@@ -41,6 +41,7 @@ Table of Contents:
 - Spotify API for getting live music data
 - Tailwind CSS for Design
 - Hero icons
+- Tailwind scrollbar Hide
 - JWT OAUTH2 for authenticating with the API
 - NextAuth for site authentication management
 - Debounce for debouncing
