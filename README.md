@@ -45,6 +45,7 @@ Table of Contents:
 - JWT OAUTH2 for authenticating with the API
 - NextAuth for site authentication management
 - Debounce for debouncing
+- Lodash for manipulating arrays efficiently
 - Access/Refresh tokens
 
 ## Features
