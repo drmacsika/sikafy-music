@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import { getProviders, signIn } from 'next-auth/react'
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 import Image from 'next/image'
+import Photos from '../components/Photos';
 
 type ProvidersProps = {
     name: string
@@ -12,13 +13,11 @@ const Login: NextPage = (props: InferGetServerSidePropsType<typeof getServerSide
         <>
             <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
                 <Image
-                    src="/sikafy_transparent.png"
-                    alt="Sikafy Music Logo"
-                    width={300}
-                    height={300}
+                    src='https://raw.githubusercontent.com/drmacsika/sikafy-music/master/public/sikafy_transparent.png'
+                    alt='Logo'
+                    width={200}
+                    height={200}
                     className="w-52 mb-5"
-                    placeholder="blur"
-                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAABAAIDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAaEAEAAQUAAAAAAAAAAAAAAAAAAgMENHOx/8QAFAEBAAAAAAAAAAAAAAAAAAAACP/EABgRAAIDAAAAAAAAAAAAAAAAAAABAjEy/9oADAMBAAIRAxEAPwCh2uLR1x4AErsXs9M//9k="
                 />
                 {
                     Object.values(props.providers).map((provider: any) => (
@@ -32,6 +31,8 @@ const Login: NextPage = (props: InferGetServerSidePropsType<typeof getServerSide
                         </div>
                     ))
                 }
+                <p className="text-white text-center p-3">It's alright. Your login is secure. No data is breached or stored whatsoever.</p>
+                <small className="text-white text-center p-3">&copy; 2022. <a href="https://nsikakimoh.com">Nsikak Imoh</a>.</small>
             </div>
         </>
     );
